@@ -6,3 +6,12 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: waffle
+Version: 1.0.1
+Depends: R (>= 3.5.0), ggplot2 (>= 3.1.0)
+Imports: RColorBrewer, grid, gridExtra, gtable, extrafont, curl, stringr, stats, htmlwidgets, DT, rlang, utils
+Suggests: testthat, knitr, rmarkdown, dplyr, ggthemes
+License: GPL (>= 2)
+MD5sum: 658cf5a82932be884e525dfa1b92d893
+NeedsCompilation: no
